@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/072e5df971.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <div class="main-container container align-items-center">
+    <div class="second-wrapper">
+        <div class="form-header">
+            <h3>Payment form example</h3>
+        </div>
+        <div class="bank-info">
+            <div class="f-missing">
+                <div class="f-miss-wrapper container align-items-center">
+                    <p>Some fields are missing</p>
+                </div>
+            </div>
+            <div class="c-card">
+                <form class="d-flex">
+                    <div class="cardnum">
+                        <label for="cardnum" class="form-label">Card #</label>
+                        <input type="number" class="form-control" id="cardnum" placeholder="XXXXXXXXXXXXXXXX">
+                    </div>
+                    <div class="cvc">
+                        <label for="cvc" class="form-label">CVC #</label>
+                        <input type="number" class="form-control" id="cvc" placeholder="0000">
+                    </div>
+                    <div class="amount">
+                        <label for="amount" class="form-label">Amount</label>
+                        <div class="d-flex">
+                            <strong>$</strong>
+                            <input type="number" class="form-control" id="amount" placeholder="Amount">
+                        </div>
+                        
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+        <div class="personal-info d-flex">
+            <div class="column1">
+                <div class="firstName">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName">
+                </div>
+                <div class="city">
+                    <label for="cardnum" class="form-label">City</label>
+                    <input type="number" class="form-control" id="cardnum">
+                </div>
+                <div class="weAcc">
+                    <p>We accept:</p>
+                    <div class="radiobuttons d-flex">
+                        <div class="form-check radio">
+                            <input class="form-check-input" type="radio" name="icon1" id="icon1">
+                            <label class="form-check-label" for="icon1">
+                                <i class="fa-brands fa-cc-mastercard" style="color: #dae0ec;"></i>
+                            </label>
+                        </div>
+                        <div class="form-check radio">
+                            <input class="form-check-input" type="radio" name="icon2" id="icon2">
+                            <label class="form-check-label" for="icon2">
+                                <i class="fa-brands fa-cc-visa" style="color: #dae0ec;"></i>
+                            </label>
+                        </div>
+                        <div class="form-check radio">
+                            <input class="form-check-input" type="radio" name="icon3" id="icon3">
+                            <label class="form-check-label" for="icon3">
+                                <i class="fa-brands fa-cc-diners-club" style="color: #dae0ec;"></i>
+                            </label>
+                        </div>
+                        <div class="form-check radio">
+                            <input class="form-check-input" type="radio" name="icon4" id="icon4">
+                            <label class="form-check-label" for="icon4">
+                                <i class="fa-brands fa-cc-amex" style="color: #dae0ec;"></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="lastName">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName">
+                </div>
+                <div class="secondRow d-flex">
+                    <div class="pickState">
+                    <label for="state" class="form-label">State</label>
+                    <select class="form-select" id="state" aria-label="Default select example">
+                        <option selected>Pick a state</option>
+                        <option value="florida">Florida</option>
+                        <option value="minnesota">Minnesota</option>
+                        <option value="colorado">Colorado</option>
+                    </select>
+                    </div>
+                    <div class="postalCode">
+                        <label for="postalCode" class="form-label">Postal Code</label>
+                        <input type="number" class="form-control" id="postalCode">
+                    </div>
+                </div>
+                <div class="message">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                    <div class="form-text" id="messageNote">
+                        Add any notes here.
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="footer-submit d-flex py-2 pe-2 justify-content-end">
+            <button type="button" class="btn btn-secondary button" disabled>Cancel</button>
+            <button type="button" class="btn btn-primary button" disabled>Send</button>
+        </div>
+    </div>     
+    </div>
+
+<!-- BOOTSTRAP LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

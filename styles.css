@@ -1,0 +1,134 @@
+.main-container {
+    padding: 2rem;
+}
+
+.second-wrapper {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(205, 193, 193);
+    border-width: 1.5px;
+}
+
+.form-header {
+    background-color: rgb(255, 240, 240);
+    border-bottom: solid;
+    border-color: rgb(205, 193, 193);
+    border-width: 1.5px;
+    padding: 5px;
+    padding-left: 15px;
+
+}
+
+.bank-info {
+    background-color: white;
+    
+}
+
+.f-missing {
+    background-color: white;
+    padding: 1rem;
+    padding-bottom: 0.2rem;
+}
+
+.f-miss-wrapper {
+    background-color: rgb(255, 194, 194);
+    border: solid;
+    border-width: 1.5px;
+    border-color: rgb(255, 174, 174);
+    border-radius: 5px;
+    color: rgb(145, 53, 53);
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.cardnum {
+    width: 45%;
+    margin: 10px;
+}
+
+.cvc {
+    width: 25%;
+    margin: 10px;
+}
+
+.amount {
+    width: 30%;
+    margin: 10px;
+}
+
+.personal-info {
+    background-color: white;
+}
+
+/**** Column1 Items ****/
+.column1 {
+    width: 50%;
+    padding: 10px;
+}
+
+.radiobuttons {
+    background-color: rgb(92, 92, 92);
+    width: 60%;
+    border-radius: 5px;
+}
+
+.radio {
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+i {
+    padding-left: 1px;
+}
+
+.firstName {
+    padding-bottom: 20px;
+}
+
+.city {
+    padding-bottom: 20px;
+}
+/**** Column1 Items ****/
+
+/**** Column2 Items ****/
+.column2 {
+    width: 50%;
+    padding: 10px;
+}
+
+.lastName {
+    padding-bottom: 20px;
+}
+
+.secondRow {
+    padding-bottom: 20px;
+}
+
+.message {
+    padding-bottom: 20px;
+}
+
+.pickState {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.postalCode {
+    width: 50%;
+    padding-left: 10px;
+}
+/**** Column2 Items ****/
+
+.footer-submit {
+    background-color: rgb(255, 240, 240);
+    border-top: solid;
+    border-color: rgb(205, 193, 193);
+    border-width: 1.5px;
+    
+}
+
+.button {
+    margin: 5px;
+}
+
